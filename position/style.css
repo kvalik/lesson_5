@@ -1,0 +1,50 @@
+.composition {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background: url("https://htmlbase.ru/storage/app/media/position-task1/bg.jpg");
+  }
+
+  .planet-1{
+    position: relative;
+    left: 100px;
+    top: 15px;
+    z-index: 0;
+  }
+
+  .planet-2{
+    position:absolute;
+    left: 40px;
+    top: 40px ;
+  }
+
+  .spaceship{
+    position: absolute;
+    left: 80px;
+    top: 83px;
+  }
+
+  .planet-3{
+    position: absolute;
+    left: 80px;
+    top: 75px;
+    z-index: 1;
+  }
+
+  .ufo {
+    position: absolute;
+    left: 60px;
+    top: 150px;
+    z-index: 2;
+  }
+  .superman{
+    position: absolute;
+    left: 245px;
+    top: 164px;
+  }
+
+  .asteroid {
+    position: absolute;
+    left: 210px;
+    top: 40px;
+  }
